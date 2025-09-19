@@ -1,6 +1,8 @@
+import { Input } from "../ui/input"
+
 const Search = () => {
   return (
-    <div>Search</div>
+    <Input type="text" className="flex-grow" placeholder="Search" />
   )
 }
 export default Search
